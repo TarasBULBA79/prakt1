@@ -123,12 +123,17 @@ document.write(concatenation)
 
 //
 // 10. Подумайте Які значення виведе у вікно браузера наступний фрагмент коду? і чому?
-//     let str = "20";
-// let a = 5;
-// document.write (str + a + "<br/>"); //NUMBER
-// document.write (str - a + "<br/>");
-// document.write (str * "2" + "<br/>");//
-// document.write (str / 2 + "<br/>");
+    let str = "20";
+let a = 5;
+document.write (str + a + "<br/>"); //NUMBER
+document.write (str - a + "<br/>"); //
+document.write (str * "2" + "<br/>");//
+document.write (str / 2 + "<br/>");
+
+for (let i = 0; i < str.length; i++) {
+    const strElement = str[i];
+    
+}
 //
 //
 //
