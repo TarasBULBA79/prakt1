@@ -49,15 +49,15 @@
 //     5 + '3',
 //     '5' - 3,
 //     75 + 'кг'
-
-let a6 = 6 % 3
-console.log(a6)
-let a7 = 5 + '3'
-console.log( typeof a7)
-let a8 = '10' - 3
-console.log(a8)
-let a9 =  75 + '3кг'
-console.log(a9)
+//
+// let a6 = 6 % 3
+// console.log(a6)
+// let a7 = 5 + '3'
+// console.log( typeof a7)
+// let a8 = '10' - 3
+// console.log(a8)
+// let a9 =  75 + '3кг'
+// console.log(a9)
 
 
 //
@@ -90,30 +90,37 @@ console.log(a9)
 // Знайдіть гіпотенузу k по теоремі Піфагора (потрібно використовувати функцію Math.pow (число, ступінь) або оператор піднесення до степеня **).
 //
 
-function triangle (side_n, side_m){
-    let res = (side_n**2+side_m**2)**0.5
-    return res
-}
-let c = Math.pow(10, 2)
-let c1 = Math.pow(10, 2)
-let c2 = c+c1
-let a = Math.sqrt(c2)
-console.log(c)
+// function triangle (side_n, side_m){
+//     let res = (side_n**2+side_m**2)**0.5
+//     return res
+// }
+// let c = Math.pow(10, 2)
+// let c1 = Math.pow(10, 2)
+// let c2 = c+c1
+// let a = Math.sqrt(c2)
+// console.log(c)
 
 //
 //
 // 8. Вивести в вікно браузера за допомогою методу alert () такі дані: Ваше ПІБ, вік, хобі (кожної на нового рядка з допомогою \ n).
 
 
-let name = 'Taras'
-let surnname = 'Taras'
-alert('My name: ' + name + 'my surname' + surnname)
+// let name = 'Taras'
+// let surnname = 'Taras'
+// alert('My name: ' + name + 'my surname' + surname)
 
 
 // 9. Створити 4 змінні з використанням ключового слова let з іменами str1, str2, str3, concatenation.
 //     Змінної str1 привласнити фразу 'Хто', str2 - 'ти', str3 - 'такий?'
 // Локальної змінної concatenation привласнити результат конкатенації 3-х рядків: str1, str2, str3.
 //     Вивести в документ вміст змінної concatenation задопомогою document.write
+
+let str1 ='хто';
+let str2 = ' ти';
+let str3 = ' такий?';
+let concatenation = str1+str2+str3
+document.write(concatenation)
+
 //
 // 10. Подумайте Які значення виведе у вікно браузера наступний фрагмент коду? і чому?
 //     let str = "20";
@@ -126,13 +133,15 @@ alert('My name: ' + name + 'my surname' + surnname)
 //
 //
 // 13. За допомогою вікна введення, що викликається методом prompt, зробити додавання двох чисел, а висновок результату за допомогою методу alert
+
+// let num1 = +prompt('vvedit cuslo')
+// let num2 = +prompt('vvedit cuslo')
+//
+// document.write(num1 + num2)
+
 // 14. За допомогою вікна введення, що викликається методом prompt, користувач послідовно виводить ім'я, прізвище та вік, а вам не обходимо вивести рядок такого виду
 // Доброго вечора Іван Іванов, мої поздоровлення що вам 32, а висновок результату за допомогою методу alert
 //
-let num1 = +prompt('vvedit cuslo')
-let num2 = +prompt('vvedit cuslo')
-
-document.write(num1 + num2)
 //
 //
 // =====================
